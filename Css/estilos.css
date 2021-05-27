@@ -29,3 +29,9 @@ body{
 #container p{
     padding: 0 0 0 1em;
 }
+#footer{
+    background: rgba(127, 93, 172, 0.993);
+    color: white;
+    text-align: center;
+    padding: 0.5em;
+}
