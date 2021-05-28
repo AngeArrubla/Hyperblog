@@ -1,7 +1,11 @@
 body{
+    background-color: #c9edee;
     color:#333;
     text-align: center;
     font-family: "Arial";
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
 }
 #cabecera{
     background-color: rgb(93, 26, 138);
@@ -11,6 +15,11 @@ body{
     font-weight: bold;
     padding:0.6em;
 }
+#cabecera #logo{
+    width: 23px;
+    vertical-align: middle; /* alinea el logo con el texto*/
+    padding: 0 0 0 1em;
+}
 #cabecera #tagline{
     padding: 0 0 0 1em;
     font-weight: normal;
@@ -18,10 +27,12 @@ body{
 }
 #container{
     width:70%;
+    padding: 0px;
     text-align:left;
     border:1px solid rgba(77, 33, 97, 0.822);
     margin: 0 auto;
-}
+    background: white;
+}   
 #container h1{
     font-size: 20px;
     padding: 0 0 0 1em;
